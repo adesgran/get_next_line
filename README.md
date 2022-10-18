@@ -1,2 +1,25 @@
 # get_next_line
-get_next_line project for 42
+> Project for 42 school
+
+## Description
+> C function witch read an open stream line by line
+
+> get_next_line_bonus allow to read alternaly multiple files
+
+## Uses
+> main.c :
+>```
+> 1  #include <fcntl.h>
+> 2  #include <unistd.h>
+> 3  #include "get_next_line.h"
+> 4
+> 5  int main (void)
+> 6  {
+> 7  	int fd = open("MyFilename.txt");
+> 8		char \*line;
+> 9 	while (line = get_next_line(fd))
+> 10	printf("%s\n", line);
+> 11 	close(fd);
+> 12 	return (1);
+> 13 }
+>```
