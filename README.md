@@ -1,3 +1,5 @@
+[![Linux](https://svgshare.com/i/Zhy.svg)](https://svgshare.com/i/Zhy.svg)
+
 # get_next_line
 > Project for 42 school
 
