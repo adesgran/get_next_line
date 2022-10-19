@@ -4,7 +4,7 @@
 > Project for 42 school
 
 ## Description
-> C function witch read an open stream line by line
+> C function wich read an open stream line by line
 
 > get_next_line_bonus allow to read alternaly multiple files
 
